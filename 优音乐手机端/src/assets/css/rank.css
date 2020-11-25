@@ -1,0 +1,93 @@
+.rank{
+    padding-top: 2.52rem;
+}
+.rank .hotSongs{
+    width: 100%;
+    height: 2.9rem;
+    background: url('../images//bg2.jpg') no-repeat;
+    background-size: contain
+}
+.rank .hotSongs .hotSongsCon{
+    padding-left: .4rem;
+    padding-top: .4rem;
+}
+.rank .hotSongs .hotIcon{
+    width: 2.84rem;
+    height: 1.34rem;
+    background: url('../images/icon1.png') no-repeat;
+    background-position: -24px -30px;
+    background-size: 3.32rem 1.94rem;
+}
+.rank .hotSongs .hotTime{
+    padding-top: 10px;
+    color:#fff;
+    font-size: 12px;
+}
+.rank .songList .itemList{
+    display: flex;
+    border-bottom: 1px solid #ccc;  
+}
+.rank .songList .left{
+    width: .8rem;
+    font-size: 17px;
+    line-height: 1.08rem;
+    padding-left: -0.2rem;
+    text-align: center;
+    color: #999;
+}
+.rank .songList .active{
+    color: #df3436;
+}
+.rank .songList .txt{
+    padding: 6px 0;
+}
+.rank .songList h4{
+    font-size: 17px;
+    line-height: 24px;
+    width: 5.6rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.rank .songList h4 span{
+    color: #888;
+}
+.rank .songList p{
+    font-size: 12px;
+    line-height: 17px;
+    color: #888;
+}
+.rank .songList .sq{
+    display: inline-block;
+    width: 12px;
+    height: 8px;
+    margin-right: 4px;
+    background: url('../images/icon1.png') no-repeat;
+    background-size: 3.33rem 1.94rem;
+    background-position: 0px 0px;
+}
+.rank .songList .right{
+    height: 1.04rem;
+    width: .44rem;
+}
+.rank .songList .play{
+    display: inline-block;
+    width: .46rem;
+    height: .46rem;
+    background: url('../images/icon1.png') no-repeat;
+    background-size: 3.33rem 1.94rem;
+    background-position: -24px 0;
+    margin-top: .32rem;
+}
+.rank .hotBot{
+    width: 100%;
+    height: 1.1rem;
+    line-height: 1.1rem;
+    text-align: center;
+}
+.rank .hotBot span{
+    display: inline-block;
+    color: #999;
+    font-size: 14px;
+    padding-right: 14px;
+}
